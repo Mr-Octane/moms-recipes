@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mom's Recipes - Homemade Cooking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>🍳 Mom's Recipes</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Mom's Kitchen</h2>
+            <p>Delicious homemade recipes passed down through generations</p>
+            <a href="#recipes" class="cta-button">Explore Recipes</a>
+        </div>
+    </section>
+
+    <section id="recipes" class="recipes">
+        <div class="container">
+            <h2>Our Recipes</h2>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search recipes...">
+            </div>
+            <div class="recipe-grid" id="recipeGrid">
+                <!-- Recipes will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About These Recipes</h2>
+            <p>Each recipe in this collection has been carefully prepared and tested. These are family favorites that have been enjoyed for years. Feel free to customize them to your taste and make them your own!</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p>Have questions about a recipe? Want to share your cooking experience?</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mom's Recipes. Made with ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
